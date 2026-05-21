@@ -197,7 +197,9 @@
                     <p id="calc-display" class="text-3xl md:text-4xl font-light text-white tracking-wider">0</p>
                 </div>
                 <div class="grid grid-cols-4 gap-2 md:gap-4">
-                    <button onclick="calcClear()" class="col-span-2 bg-red-500 text-white font-semibold py-3 md:py-4 rounded-lg md:rounded-xl hover:bg-red-600 transition-colors">AC</button>
+                    <button onclick="calcClear()" class="bg-red-500 text-white font-semibold py-3 md:py-4 rounded-lg md:rounded-xl hover:bg-red-600 transition-colors">AC</button>
+                    <button onclick="calcBackspace()" class="bg-orange-500 text-white font-semibold py-3 md:py-4 rounded-lg md:rounded-xl hover:bg-orange-600 transition-colors"><i class="fa-solid fa-delete-left"></i></button>
+                    
                     <button onclick="calcInput('/')" class="bg-gray-700 text-brand-400 font-bold text-xl md:text-2xl py-3 md:py-4 rounded-lg md:rounded-xl hover:bg-gray-600 transition-colors">÷</button>
                     <button onclick="calcInput('*')" class="bg-gray-700 text-brand-400 font-bold text-xl md:text-2xl py-3 md:py-4 rounded-lg md:rounded-xl hover:bg-gray-600 transition-colors">×</button>
                     
