@@ -247,6 +247,28 @@ function calcClear() {
     calcDisplay.innerText = "0";
 }
 
+function calcBackspace() {
+    if(!calcDisplay) return;
+    
+    // Kalau layarnya lagi error, hapus jadi 0 aja
+    if(calcDisplay.innerText === "Error") {
+        calcClear();
+        return;
+    }
+
+    if(calcExpression.length > 0) {
+        // Potong 1 karakter dari belakang
+        calcExpression = calcExpression.slice(0, -1);
+        
+        // Kalau setelah dipotong stringnya kosong, balikin ke "0"
+        if(calcExpression === "") {
+            calcDisplay.innerText = "0";
+        } else {
+            calcDisplay.innerText = calcExpression;
+        }
+    }
+}
+
 function calcResult() {
     if(!calcDisplay) return;
     try {
