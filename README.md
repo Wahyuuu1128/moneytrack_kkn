@@ -20,7 +20,7 @@ Sistem ini memisahkan lapisan klien dan server sepenuhnya:
 
 * Frontend: HTML5, Tailwind CSS (via CDN), Vanilla JavaScript (Fetch API).
 * Backend / API: Google Apps Script (RESTful API dengan metode GET dan POST).
-* Database: Google Sheets (Single Table Architecture).
+* Database: Google Sheets.
 * Deployment: GitHub Pages.
 * Visualisasi Data: Chart.js.
 
