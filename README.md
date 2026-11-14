@@ -63,4 +63,4 @@ Karena setelan akses API bersifat publik (Anyone), sangat disarankan untuk menja
 
 ## Pengembang
 
-Dikembangkan oleh Wahyu Rahmat Ilahi.
+## Dikembangkan oleh Wahyu Rahmat Ilahi.
